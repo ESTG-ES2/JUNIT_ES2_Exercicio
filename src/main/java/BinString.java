@@ -11,9 +11,10 @@ public class BinString{
         return (((int) s.charAt(0))) + sum(s.substring(1));
     }
 
+    //Esqueci me que não era para dar merge da branch para o main XD Hábitos Antigos
     public String binarise(int x){
         if(x==0) return "";
-        if(x%2 == 1) return "1" + binarise(x/2) ;
-        return "0" + binarise(x/2);
+        if(x%2 == 1) return binarise(x/2)  + "1";
+        return binarise(x/2) + "0";
     }
 }
