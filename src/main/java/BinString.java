@@ -13,7 +13,8 @@ public class BinString{
 
     public String binarise(int x){
         if(x==0) return "";
-        if(x%2 == 1) return "1" + binarise(x/2) ;
-        return "0" + binarise(x/2);
+        return "" + binarise(x/2) + x%2;
     }
+
+
 }
