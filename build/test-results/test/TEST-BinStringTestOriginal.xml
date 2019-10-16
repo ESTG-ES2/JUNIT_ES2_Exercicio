@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BinStringTestOriginal" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-16T15:17:45" hostname="DESKTOP-9TSQLM5" time="0.116">
+  <properties/>
+  <testcase name="testSumFunction()" classname="BinStringTestOriginal" time="0.078"/>
+  <testcase name="testTotalConversion()" classname="BinStringTestOriginal" time="0.009"/>
+  <testcase name="testBinariseFunction()" classname="BinStringTestOriginal" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
