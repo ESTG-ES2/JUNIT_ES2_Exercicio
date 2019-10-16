@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BinStringTestOriginal" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-16T14:17:12" hostname="ruibessa-mint" time="0.049">
+  <properties/>
+  <testcase name="testSumFunction()" classname="BinStringTestOriginal" time="0.039"/>
+  <testcase name="testTotalConversion()" classname="BinStringTestOriginal" time="0.004"/>
+  <testcase name="testBinariseFunction()" classname="BinStringTestOriginal" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
