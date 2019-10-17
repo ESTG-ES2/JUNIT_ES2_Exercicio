@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BinStringTestOriginal" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-17T14:56:02" hostname="DESKTOP-GFDN0OD" time="0.018">
+  <properties/>
+  <testcase name="testTotalConversion()" classname="BinStringTestOriginal" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
