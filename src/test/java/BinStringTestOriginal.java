@@ -9,7 +9,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testSumFunction(){
+    public void testSumFunction() {
 
         int expected = 0;
         Assertions.assertEquals(expected, binString.sum(""), "\"\" should be 0");
@@ -20,7 +20,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testBinariseFunction(){
+    public void testBinariseFunction() {
 
         String expected = "101";
         Assertions.assertEquals(expected, binString.binarise(5), "5 should be 101");
@@ -31,7 +31,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testTotalConversion(){
+    public void testTotalConversion() {
         String expected = "1000001";
         Assertions.assertEquals(expected, binString.convert("A"), "A should be 1000001");
     }
