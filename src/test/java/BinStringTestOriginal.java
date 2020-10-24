@@ -34,6 +34,5 @@ public class BinStringTestOriginal {
     public void testTotalConversion(){
         String expected = "1000001";
         Assertions.assertEquals(expected, binString.convert("A"), "A should be 1000001");
-        int i=0;
     }
 }
