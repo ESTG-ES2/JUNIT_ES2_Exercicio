@@ -1,4 +1,6 @@
+import groovy.json.JsonOutput;
 import org.junit.jupiter.api.*;
+import org.w3c.dom.ls.LSOutput;
 
 public class BinStringTestOriginal {
     private BinString binString;
@@ -10,7 +12,6 @@ public class BinStringTestOriginal {
 
     @Test
     public void testSumFunction(){
-
         int expected = 0;
         Assertions.assertEquals(expected, binString.sum(""), "\"\" should be 0");
         expected = 100;
@@ -27,7 +28,6 @@ public class BinStringTestOriginal {
 
         expected = "11111100";
         Assertions.assertEquals(expected, binString.binarise(252), "252 should be 11111100");
-
     }
 
     @Test
