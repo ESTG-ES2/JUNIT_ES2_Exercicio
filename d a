@@ -1,0 +1,31 @@
+[33mcommit ef8279ecc6229e27ea366f6d8c712852d6a75a7a[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: RafacDias <rafaelcdias00@gmail.com>
+Date:   Wed Oct 28 11:39:59 2020 +0000
+
+    commit teste
+
+[1mdiff --git a/src/main/java/BinString.java b/src/main/java/BinString.java[m
+[1mindex f51cda3..f8234ee 100755[m
+[1m--- a/src/main/java/BinString.java[m
+[1m+++ b/src/main/java/BinString.java[m
+[36m@@ -7,13 +7,17 @@[m [mpublic class BinString{[m
+ [m
+     public int sum(String s){[m
+         if(s == "") return 0;[m
+[31m-        if (s.length() == 1) return ((int) s.charAt(0));[m
+[32m+[m[32m        if (s.length() == 1)[m[41m[m
+[32m+[m[32m            return ((int) s.charAt(0));[m[41m[m
+         return (((int) s.charAt(0))) + sum(s.substring(1));[m
+     }[m
+ [m
+     public String binarise(int x){[m
+         if(x==0) return "";[m
+[31m-        if(x%2 == 1) return "1" + binarise(x/2) ;[m
+[31m-        return "0" + binarise(x/2);[m
+[32m+[m[32m        if(x%2 == 1)[m[41m[m
+[32m+[m[32m            return binarise(x/2) + "1";[m[41m[m
+[32m+[m[32m        else[m[41m[m
+[32m+[m[32m            return binarise(x/2) + "0";[m[41m[m
+[32m+[m[41m[m
+     }[m
+ }[m
