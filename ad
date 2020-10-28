@@ -1,0 +1,47 @@
+[33mcommit ef8279ecc6229e27ea366f6d8c712852d6a75a7a[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: RafacDias <rafaelcdias00@gmail.com>
+Date:   Wed Oct 28 11:39:59 2020 +0000
+
+    commit teste
+
+[33mcommit 471f5693bff597a241c9b0dc4bf8c76b13900910[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: RafacDias <rafaelcdias00@gmail.com>
+Date:   Mon Oct 26 11:25:09 2020 +0000
+
+    correcao erro do teste
+
+[33mcommit d929303e80fc419f4c064a30d943141dadb8d04c[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Wed Oct 21 12:52:22 2020 +0100
+
+    removed build.gradle
+
+[33mcommit 88c3509b99506dffc182240947f0ab7d47216218[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Mon Oct 14 10:31:40 2019 +0100
+
+    build.gradle
+
+[33mcommit b593a7ff9c8524281eb3da41fb90e905965ecc1a[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Sun Oct 13 15:34:28 2019 +0100
+
+    Remove .DS_Store file
+
+[33mcommit ceb423778c19266c2a5f2131e30be45f24dd1c83[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Sun Oct 13 14:37:55 2019 +0100
+
+    Remove DS_Store file
+
+[33mcommit 2bcb13d941dade4bec2e60fee4b1e3c632bfa27e[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Fri Oct 11 09:22:39 2019 +0100
+
+    BinStringProject
+
+[33mcommit 7a66eb268ddf99a376a7c13ffde82e41a607af9a[m
+Author: Bruno <bruno.oliveira360@gmail.com>
+Date:   Fri Oct 11 09:21:35 2019 +0100
+
+    BinStringProject
