@@ -1,6 +1,7 @@
 import groovy.json.JsonOutput;
 import org.junit.jupiter.api.*;
 import org.w3c.dom.ls.LSOutput;
+import spock.lang.Stepwise;
 
 public class BinStringTestOriginal {
     private BinString binString;
@@ -22,7 +23,6 @@ public class BinStringTestOriginal {
 
     @Test
     public void testBinariseFunction(){
-
         String expected = "101";
         Assertions.assertEquals(expected, binString.binarise(5), "5 should be 101");
 
@@ -35,4 +35,6 @@ public class BinStringTestOriginal {
         String expected = "1000001";
         Assertions.assertEquals(expected, binString.convert("A"), "A should be 1000001");
     }
+
+
 }

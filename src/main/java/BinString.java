@@ -16,4 +16,8 @@ public class BinString{
         if(x%2 == 1) return binarise(x/2) + "1" ;
         return binarise(x/2) + "0";
     }
+
+    public int multiplyTwice(int value){
+        return value*2;
+    }
 }
